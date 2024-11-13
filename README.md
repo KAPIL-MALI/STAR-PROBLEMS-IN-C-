@@ -2,7 +2,7 @@
 
 ********************************************************************************INDEX*****************************************************************************************
 LINE NO.31 = SQUARE STAR PATTERN
-
+LINE NO.57 = BASIC STAR PATTERN
 
 
 
@@ -49,3 +49,28 @@ int main (){
 
 //outer for loop will be used for the rows and
 //inner for loop will be used for the columns .
+
+
+
+
+
+BASIC STAR PATTERN
+*
+**
+***
+****
+*****
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int c = 5;  // Number of rows
+    for (int a = 1; a <= c; a++) {        
+        for (int b = 1; b <= a; b++) {    
+            cout << "* ";
+        }
+        cout << endl;                     
+    }
+    return 0;
+}
