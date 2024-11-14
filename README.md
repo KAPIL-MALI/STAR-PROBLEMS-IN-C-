@@ -65,10 +65,13 @@ BASIC STAR PATTERN
 using namespace std;
 
 int main() {
+
+    int a = 1;
+    int b = 1;
     int c = 5;  // Number of rows
     for (int a = 1; a <= c; a++) {        
-        for (int b = 1; b <= a; b++) {    
-            cout << "* ";
+    for (int b = 1; b <= a; b++) {    
+        cout << "* ";
         }
         cout << endl;                     
     }
